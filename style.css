@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	background-image: linear-gradient(to bottom right, #3d2b3c, #3c829f);
+}
+h1,h2, #logo{
+	font-family: "BD Geminis", sans-serif;
+	position: fixed;
+	color: #b86089;
+}
+h1{
+	font-size: 80px;
+	display: block;
+	width: 100%;
+	text-align: center;
+
+}
+h2{
+	right: 25px;
+}
+
+#logo{
+	max-width: 120px;
+	max-height: 120px;
+	margin-top: 20px;
+}
+#content img{
+	max-width: 420px;
+	max-height: 420px;
+	margin-top: 210px;
+}
+#content{
+	
+	justify-content: space-evenly;
+	display: table;
+	width: 100%;
+}
+#content div{
+	justify-content: space-evenly;
+	display: table-cell;
+	width: 33%;
+	text-align: center;
+}
+#content .pic2{
+	width: 20%;
+}
+#content a:hover img{
+	filter: invert(100%);
+}
+p{
+	color: #b86089;
+	font-family: "Acumin Variable Concept", sans-serif;
+}
+#phuong{
+	max-width: 35px;
+	max-height: 35px;
+	right: 105px;
+	top: 50px;
+	position: fixed;
+}
+#nhp{
+	text-decoration-line: none;
+	right: 25px;
+	top: 60px;
+	color: #b86089;
+	font-family: "BD Geminis", sans-serif;
+	position: fixed;
+}
+#heading #nhp:hover{
+	text-shadow: 0 0 2px #a9ccb4;
+}
+h3{
+	font-family: "Acumin Variable Concept", sans-serif;
+	color: #b86089;
+	font-size: 30px;
+}
+#monologue{
+	margin-left: 58px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
